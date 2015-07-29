@@ -1,0 +1,26 @@
+{
+  "name": "furesz/doctrine",
+  "description": "Doctrine for Laravel5",
+  "keywords": [
+    "Doctrine",
+    "Laravel"
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "5.1.*",
+    "doctrine/orm": "^2.5"
+  },
+  "autoload": {
+    "psr-4": { "doctrine\\": "src/" }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Furesz",
+      "email": "fureszpeter@gmail.com"
+    }
+  ]
+}
